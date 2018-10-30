@@ -1,25 +1,25 @@
-/* -------------------------------------------------------------------------------
-         Como criar um script com o uso de par‚metros definidos pelo usu·rio
+Ôªø/* -------------------------------------------------------------------------------
+         Como criar um script com o uso de par√¢metros definidos pelo usu√°rio
    ------------------------------------------------------------------------------- */
    
--- Bloco de declaraÁ„o de vari·veis/Cursor
+-- Bloco de declara√ß√£o de vari√°veis/Cursor
 DECLARE
    
    V_NOME VARCHAR(30);
    
--- Bloco de execuÁ„o
+-- Bloco de execu√ß√£o
 BEGIN 
   
-      -- A funÁ„o NVL È especÌfica do Oracle e sÛ aceita duas expressıes de qualquer tipo como entrada.
-      -- Se a primeira express„o for nula, a funÁ„o retornar· a segunda express„o. Caso contr·rio, ser· retornada a primeira express„o.
-      -- "&Nome" O sinal "&" chama a caixa de vari·veis e tudo que vem depois do mesmo È o titulo que o usu·rio ir· visualizar, 
-      -- essa "Caixa de vari·veis" que o usu·rio ver· e definir· o valor dessa vari·vel.
+      -- A fun√ß√£o NVL √© espec√≠fica do Oracle e s√≥ aceita duas express√µes de qualquer tipo como entrada.
+      -- Se a primeira express√£o for nula, a fun√ß√£o retornar√° a segunda express√£o. Caso contr√°rio, ser√° retornada a primeira express√£o.
+      -- "&Nome" O sinal "&" chama a caixa de vari√°veis e tudo que vem depois do mesmo √© o titulo que o usu√°rio ir√° visualizar, 
+      -- essa "Caixa de vari√°veis" que o usu√°rio ver√° e definir√° o valor dessa vari√°vel.
       V_NOME := NVL(('&Nome'),NULL);
       
-      -- VerificaÁ„o se a vari·vel "V_NOME" n„o È nula
+      -- Verifica√ß√£o se a vari√°vel "V_NOME" n√£o √© nula
       IF (V_NOME IS NOT NULL) THEN
         
-         -- SaÌda com a vari·vel usando "DBMS"
-         DBMS_OUTPUT.PUT_LINE('Nome do usu·rio: ' || V_NOME);
+         -- Sa√≠da com a vari√°vel usando "DBMS"
+         DBMS_OUTPUT.PUT_LINE('Nome do usu√°rio: ' || V_NOME);
       END IF;
 END;
