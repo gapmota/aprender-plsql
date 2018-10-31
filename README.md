@@ -9,3 +9,6 @@ Repositório de scripts explicando algumas funções mais usadas em PL/SQL.
   
  **Cursor**
    > Script demonstrando o uso de cursor para armazenar uma seleção e exibir quaisquer registro desejado.
+
+ **Condições - IF**
+   > Script demonstrando o uso de condições utilizando IF.
