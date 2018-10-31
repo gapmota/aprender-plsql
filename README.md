@@ -6,3 +6,6 @@ Repositório de scripts explicando algumas funções mais usadas em PL/SQL.
    
  **Tratamento de erros**
    > Script demonstrando o uso de exception para o tratamento de erros.
+  
+ **Cursor**
+   > Script demonstrando o uso de cursor para armazenar uma seleção e exibir quaisquer registro desejado.
