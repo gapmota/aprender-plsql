@@ -15,7 +15,7 @@ V_NOME VARCHAR (30);
 BEGIN
 
 	-- Inserindo o nome "Gabriela Garcia" na variável "V_NOME"
-	V_NOME := "Gabriela Garcia"
+	V_NOME := "Gabriela Garcia";
 
 	-- Exibindo o conteúdo da variável "V_NOME" utilizando DBMS_OUTPUT
 	DBMS_OUTPUT.PUT_LINE(V_NOME);
