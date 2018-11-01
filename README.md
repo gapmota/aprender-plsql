@@ -12,3 +12,6 @@
 
  **Condições - IF**
    > Script demonstrando o uso de condições utilizando IF.
+   
+  **Pacote DBMS - Output**
+  > Script demonstrando o uso do pacote DBMS para exibir quaisquer registro desejado.
