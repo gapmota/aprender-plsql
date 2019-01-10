@@ -1,4 +1,4 @@
-# aprender-PLSQL
+# aprender-plsql
   **Repositório de scripts explicando algumas funções mais usadas em PL/SQL.**
  
  **Entrada de parâmetros**
