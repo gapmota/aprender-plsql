@@ -1,17 +1,17 @@
 # aprender-plsql
-  ##Repositório de scripts explicando algumas funções mais usadas em PL/SQL.##
+  ## Repositório de scripts explicando algumas funções mais usadas em PL/SQL.
  
  **Entrada de parâmetros**
-   *Script com o uso de parâmetros definidos pelo usuário utilizando a função específica da oracle "NVL".
+   * Script com o uso de parâmetros definidos pelo usuário utilizando a função específica da oracle "NVL".
    
  **Tratamento de erros**
-   *Script demonstrando o uso de exception para o tratamento de erros.
+   * Script demonstrando o uso de exception para o tratamento de erros.
   
  **Cursor**
-   *Script demonstrando o uso de cursor para armazenar uma seleção e exibir quaisquer registro desejado.
+   * Script demonstrando o uso de cursor para armazenar uma seleção e exibir quaisquer registro desejado.
 
  **Condições - IF**
-   *Script demonstrando o uso de condições utilizando IF.
+   * Script demonstrando o uso de condições utilizando IF.
    
   **Pacote DBMS - Output**
-   *Script demonstrando o uso do pacote DBMS para exibir quaisquer registro desejado.
+   * Script demonstrando o uso do pacote DBMS para exibir quaisquer registro desejado.
